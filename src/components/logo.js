@@ -13,5 +13,4 @@ export default function Logo({ src, ...rest }) {
     </Link>
   );
 }
-path: '/',
-icon: <FaTwitter />,
+ 
