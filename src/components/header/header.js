@@ -3,7 +3,10 @@ import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
-import LogoDark from "assets/logo.svg";
+import LogoDark from "assets/logo.svg";  @fontFace:{
+  fontFamily: "OpenSans";
+  src: url('../font/OpenSans-Regular.ttf');
+},
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
 
@@ -98,7 +101,7 @@ const styles = {
       px: 5,
       cursor: "pointer",
       lineHeight: "1.2",
-      transition: "all 0.15s",
+      transition: "all 200ms ease-in-out",
       "&:hover": {
         color: "primary",
       },
