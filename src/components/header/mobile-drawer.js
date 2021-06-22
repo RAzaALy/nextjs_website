@@ -164,8 +164,8 @@ const styles = {
       alignItems: "center",
       justifyContent: "center",
       color: "text",
-      fontSize: 14,
-      mr: "15px",
+      fontSize: 18,
+      mr: "18px",
       transition: "all 0.25s",
       cursor: "pointer",
       ":last-child": {

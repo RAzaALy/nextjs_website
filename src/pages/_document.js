@@ -10,7 +10,7 @@ class CustomDocument extends Document {
     return (
       <Html lang="en-US">
         <Head />
-        <body style={{overflowX: "hidden"}}>
+        <body style={{overflowX: "hidden",userSelect:"none"}}>
           <Main />
           <NextScript />
         </body>

@@ -7,7 +7,7 @@ import ShapeRight from "assets/shape-right.png";
 
 export default function Banner() {
   return (
-    <section sx={styles.banner}>
+    <section sx={styles.banner} id="home">
       <Container sx={styles.container}>
         <Box sx={styles.banner.contentBox}>
           <h1 as="h1" variant="heroPrimary">

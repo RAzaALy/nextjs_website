@@ -3,16 +3,13 @@ import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
-import LogoDark from "assets/logo.svg";  @fontFace:{
-  fontFamily: "OpenSans";
-  src: url('../font/OpenSans-Regular.ttf');
-},
+import LogoDark from "assets/logo2.svg";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
 
 export default function Header({ className }) {
   return (
-    <header sx={styles.header} className={className} id="header">
+    <header sx={styles.header} className={className}>
       <Container sx={styles.container}>
         <Logo src={LogoDark} />
         <Flex as="nav" sx={styles.nav}>
@@ -68,10 +65,13 @@ const styles = {
     backgroundColor: "transparent",
     transition: "all 0.4s ease",
     animation: `${positionAnim} 0.4s ease`,
-    ".donate__btn": {
+    Button: {
       flexShrink: 0,
       mr: [15, 20, null, null, 0],
       ml: ["auto", null, null, null, 0],
+      "@media screen and (max-width: 768px)": {
+        display: "none",
+      },
     },
     "&.sticky": {
       position: "fixed",

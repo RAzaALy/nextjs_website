@@ -289,6 +289,7 @@ export default {
         color: "white",
         bg: "primary",
       },
+    
     },
     textButton: {
       variant: "buttons.defaultBtn",

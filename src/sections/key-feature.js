@@ -36,11 +36,27 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Support,
+    imgSrc: Performance,
     altText: "Customer Support",
     title: "Customer Support",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  {
+    id: 5,
+    imgSrc: Partnership,
+    altText: "Customer Support",
+    title: "Customer Support",
+    text:
+      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+  },
+  {
+    id: 6,
+    imgSrc: Subscription,
+    altText: "Customer Support",
+    title: "Customer Support",
+    text:
+      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
   },
 ];
 
