@@ -73,7 +73,16 @@ const styles = {
         display: "none",
       },
     },
- c
+    "&.sticky": {
+      position: "fixed",
+      backgroundColor: "background",
+      color: "#000000",
+      boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
+      py: 3,
+      "nev > a": {
+        color: "text",
+      },
+    },
   },
   container: {
     display: "flex",

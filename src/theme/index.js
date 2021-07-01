@@ -374,7 +374,7 @@ export default {
         margin: 6,
         width: "auto",
       },
-    },
+},
     // Divider styles
     hr: {
       border: 0,

@@ -45,8 +45,7 @@ export default function MobileDrawer() {
       toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
       closeButton={
         <IoMdClose
-          size="
-    24px"
+          size="24px"
           color="#111"
         />
       }
