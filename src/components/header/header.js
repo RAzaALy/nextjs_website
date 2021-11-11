@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
@@ -16,6 +15,7 @@ export default function Header({ className }) {
           {menuItems.map((item, index) => (
             <Link
               activeClass="active"
+              className={styles.link}
               to={item.path}
               spy={true}
               offset={-70}
@@ -54,6 +54,11 @@ const positionAnim = keyframes`
 `;
 
 const styles = {
+  link: {
+    "@media screen and (max-width: 768px)": {
+      display: "none",
+    },
+  },
   header: {
     color: "text",
     fontWeight: "body",
